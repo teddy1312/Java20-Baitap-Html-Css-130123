@@ -1,0 +1,214 @@
+/* Mục đích: Java20 - Nộp bài tập HTML-CSS
+   Người tạo: Java20 - Nguyễn Anh Tú
+   Ngày tạo: 3/1/2023
+   Version: 1.00
+*/
+
+/* header */
+.logo{
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+/* navbar */
+#navbar{
+    background-color: black;
+}
+
+#navbar ul{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+
+#navbar ul li{
+    display: inline;
+    margin: 0px 25px;
+}
+
+#navbar ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: red;
+}
+
+/* background_image */
+#background_image{
+    height: 500px;
+    margin-top: 15px;
+    background-image: url("./Image/slider_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+}
+
+/* intro */
+.intro-text{
+    font-size: 22px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.intro-text .intro-text-red{
+    color: red;
+}
+
+.intro-product{
+    margin-top: 0px;
+}
+.intro-product-left,.intro-product-right{
+    float: left;
+    width: 50%;
+}
+
+.intro-product-item{
+    float: left;
+    padding: 1%;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+}
+
+.intro-product-item1{
+    width: 48%;
+}
+
+.intro-product-item2{
+    width: 98%;
+}
+
+.intro-product-item img{
+    width: 100%;
+    display: block;
+}
+
+.clear{
+    clear: both;
+}
+
+/* product */
+.product-header > h1{
+    text-align: center;
+}
+
+.product-item{
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.product-item-img{
+    width: 100%;
+}
+
+.product-item-tittle{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.product-item-text{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.product-item-button{
+    height: 40px;
+    width: 140px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.product-item-button:hover{
+    color: red;
+    background-color: white;
+}
+
+/* banner */
+#banner{
+    margin-top: 20px;
+    height: 450px;
+    background-image: url("./Image/nature.jpg");
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#banner .banner-content{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.65);
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+
+#banner .banner-content:hover{
+    color: red;
+    background-color: white;
+}
+
+/* service */
+#service{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.service-item{
+    float: left;
+    width: 33.333%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-item-tittle{
+    margin: 2px;
+    font-size: 25px;
+}
+
+.service-item-content{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+/* footer */
+#footer{
+    margin-top: 8px;
+    height: 210px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#footer .footer-tittle{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+#footer .footer-content{
+    padding-top: 0px;
+    line-height: 32px;
+    margin: 5px;
+    font-size: 25px;
+}
